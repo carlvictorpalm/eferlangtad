@@ -35,7 +35,7 @@
 
     <div class="row">
         <div class="wrapper">
-            <div class="">
+            <div class="title">
                 <h2>Skapa din tavla och lägg i varukorgen</h2>
             </div>
             <div class="form col-lg-6">

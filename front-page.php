@@ -81,18 +81,18 @@
     <div class="products col-lg-6">
        <div class="productid1 col-lg-12">
            <div class="col-lg-6">
-               <img src=" <?php echo get_bloginfo('template_url') ?>./img/product.png" alt="">
+               <img src=" <?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
            <div class="col-lg-6">
-               <img src="<?php echo get_bloginfo('template_url') ?>./img/product.png" alt="">
+               <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
        </div>
         <div class="productid2 col-lg-12">
             <div class="col-lg-6">
-                <img src="<?php echo get_bloginfo('template_url') ?>./img/product.png" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo get_bloginfo('template_url') ?>./img/product.png" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
         </div>
     </div>
@@ -104,17 +104,18 @@
     -->
     <div class="sale col-lg-12">
         <div class="salediscount col-lg-6">
-            <img src="<?php echo get_bloginfo('template_url') ?>./img/rabatt.png" alt="">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/rabatt.png" alt="">
         </div>
         <div class="saleparents col-lg-6">
-            <img src="<?php echo get_bloginfo('template_url') ?>./img/parents.png" alt="">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/parents.png" alt="">
         </div>
     </div>
     <!--
 	  INSPIRATION
    -->
-        <img src="<?php echo get_bloginfo('template_url') ?>./img/inspo.png" alt="">
-
+    <div class="inspo">
+        <img src="<?php echo get_bloginfo('template_url') ?>/img/inspo.png" alt="">
+    </div>
 
     <!-- 
         INSTAGRAM
