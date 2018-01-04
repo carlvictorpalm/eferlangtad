@@ -113,7 +113,7 @@
     <!--
 	  INSPIRATION
    -->
-    <div class="ins">
+    <div class="inspo">
         <img src="<?php echo get_bloginfo('template_url') ?>./img/inspo.png" alt="">
     </div>
 

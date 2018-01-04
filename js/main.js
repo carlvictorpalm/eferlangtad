@@ -30,6 +30,33 @@ window.onload = function() {
 	})();
 	
 };
+// Input text for canvas birthnameText
+$(document).ready(function(){
+    $("#birthnameText").keyup(function(){
+        var currentText = $(this).val();
+        $(".birthnameoutput").text(currentText);
+    });
+
+    $("#birthlength").keyup(function(){
+        var currentText = $(this).val();
+        $(".birthlengthoutput").text(currentText);
+    });
+
+    $("#birthweight").keyup(function(){
+        var currentText = $(this).val();
+        $(".birthweightoutput").text(currentText);
+    });
+
+    $("#birthday").keyup(function(){
+        var currentText = $(this).val();
+        $(".birthdayoutput").text(currentText);
+    });
+
+    $("#birthtime").keyup(function(){
+        var currentText = $(this).val();
+        $(".birthtimeoutput").text(currentText);
+    });
+});
 
 
  

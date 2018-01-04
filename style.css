@@ -1,6 +1,6 @@
 /*
-Theme Name: Efterlangtad
-Author: Efterlangtad
+Theme Name: VictorDev
+Author: DevVictor
 Description: Bootstrap Wordpress Theme
 Version: 1.0
 */
@@ -30,10 +30,11 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
-@media (min-width: 840px) {
+@media (min-width: 1200px) {
     .container {
         width: 1440px;
     }
+
 }
 
 /*
@@ -137,6 +138,21 @@ h6, .h6 {
 }
 
 
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
 
 
 /*
@@ -209,7 +225,6 @@ h6, .h6 {
     width: 100%;
 
 }
-
 .info {
     background-color: grey;
 }
@@ -227,7 +242,7 @@ h6, .h6 {
     background-color: #AFDFDB;
     height: 150px;
 }
-.ins {
+.inspo {
     text-align: center;
     background-color: #FBDCCE;
 }
@@ -237,6 +252,8 @@ h6, .h6 {
 input {
     width: 90%;
     padding: 10px;
+    margin: 2px;
+    padding-right: 100px;
 }
 form {
     text-align: center;
@@ -247,26 +264,40 @@ h2 {
 .formbutton {
     text-align: center;
     padding-top: 20px;
+
 }
 .form {
-    background-color: lightgrey;
+    background-color: #ECEAE5;
     margin-bottom: 40px;
+
 }
 .picture {
-    height: 370px;
-    background-color: lightgrey;
+    height: 600px;
+    background-color: antiquewhite;
     margin-bottom: 40px;
+
 }
 .innerform {
     padding: 40px;
+
 }
 .innerpicture {
-    margin-top: 40px;
-    padding: 140px;
+    margin-top: 20px;
+    padding: 282px;
     background-color: white;
-    width: 90%;
+
+}
+.innerpictureTextname {
+    background-color: lightblue;
+
+}
+.picture col-lg-6 {
+    margin-bottom: 200px;
 }
 
+.h2rubrik {
+    background-color: #ECEAE5;
+}
 .newsletter {
     padding: 20px 0px;
     background: #AFDFDB;
@@ -305,4 +336,3 @@ h2 {
     color: #fff;
     font-size: 20px;
 }
-
