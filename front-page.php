@@ -51,7 +51,7 @@
 </section>
 <div class="container">
     <div class="trustbar">
-        <h3>trustbar</h3>
+        <img src=" <?php echo get_bloginfo('template_url') ?>/img/trustbar.jpg" alt="">
     </div>
     <!-- 
        INFORMATION
