@@ -242,10 +242,7 @@ h6, .h6 {
     background-color: #AFDFDB;
     height: 150px;
 }
-.inspo {
-    text-align: center;
-    background-color: #FBDCCE;
-}
+
 .salediscount, .saleparents {
     text-align: center;
 }
@@ -283,7 +280,7 @@ h2 {
 }
 .innerpicture {
     margin-top: 20px;
-    padding: 282px;
+    height: 565px;
     background-color: white;
 
 }
