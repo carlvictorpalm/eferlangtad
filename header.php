@@ -39,10 +39,5 @@
       </div>
     </div>
 
+
     <div class="container">
-      <div class="blog-header">
-        <?php if ( is_front_page() ) {  ?>
-       <h1 class="blog-title"><?php bloginfo('name'); ?></h1>
-    <?php } ?>
-        <!--<p class="lead blog-description"><?php// bloginfo('description'); ?></p>-->
-      </div>

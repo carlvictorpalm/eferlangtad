@@ -137,21 +137,6 @@ h6, .h6 {
 }
 
 
-/*
- * Blog posts
- */
-
-.blog-post {
-    margin-bottom: 60px;
-}
-.blog-post-title {
-    margin-bottom: 5px;
-    font-size: 40px;
-}
-.blog-post-meta {
-    margin-bottom: 20px;
-    color: #999;
-}
 
 
 /*
@@ -184,6 +169,25 @@ h6, .h6 {
  * Custom Styles
  *
  */
+.showcase{
+    height:600px;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom:#ccc 1px solid;
+    margin-bottom:30px;
+    color:#fff;
+}
+
+.showcase h1{
+    font-size: 55px;
+    padding-bottom:20px;
+    color:#fff;
+}
+
+.showcase p {
+    font-size:20px;
+    margin-bottom:50px;
+}
 .trustbar {
     height:100px;
     background-color: #AFDFDB;
@@ -205,6 +209,7 @@ h6, .h6 {
     width: 100%;
 
 }
+
 .info {
     background-color: grey;
 }
@@ -262,23 +267,23 @@ h2 {
     width: 90%;
 }
 
-.home-newsletter {
+.newsletter {
     padding: 20px 0px;
     background: #AFDFDB;
 }
 
-.home-newsletter .single {
+.newsletter .single {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 2;  }
-.home-newsletter .single h1 {
+.newsletter .single h1 {
     font-size: 30px;
     color: white;
     text-transform: uppercase; }
 
-.home-newsletter .single .form-control {
+.newsletter .single .form-control {
     height: 50px;
     padding: 1px 60px;
     text-align: center;
@@ -287,16 +292,16 @@ h2 {
     border-radius: 20px 0px 0px 20px;
     border-style: hidden; }
 
-.home-newsletter .single .form-control:focus {
+.newsletter .single .form-control:focus {
     box-shadow: none;
     border-color: #243c4f; }
-.home-newsletter .single .btn {
+.newsletter .single .btn {
     min-height: 50px;
     border-radius: 0 20px 20px 0;
     background: #243c4f;
     color: #fff;
     border-style: hidden;  }
-.home-newsletter p {
+.newsletter p {
     color: #fff;
     font-size: 20px;
 }

@@ -28,7 +28,7 @@
       <div class="footerinspo col-lg-4">
         <h3>INSPIRATION</h3>
         <p><a href="https://www.instagram.se/" target="_blank">Instagram</a></p>
-        <p><a href="https://www.pinterest.se/" target="_blank">Pinterest & Svar</a></p>
+        <p><a href="https://www.pinterest.se/" target="_blank">Pinterest</a></p>
 
 
       </div>

@@ -1,5 +1,5 @@
 <?php
-/*  function wpb_customize_register($wp_customize){
+  function wpb_customize_register($wp_customize){
     // Showcase Section
     $wp_customize->add_section('showcase', array(
       'title'   => __('Showcase', 'wp_theme'),
@@ -8,7 +8,7 @@
     ));
 
     $wp_customize->add_setting('showcase_image', array(
-      'default'   => get_bloginfo('template_directory').'/img/showcase.jpg',
+      'default'   => get_bloginfo('template_directory').'/img/lapin.jpg',
       'type'      => 'theme_mod'
     ));
 
@@ -21,7 +21,7 @@
 
 
     $wp_customize->add_setting('showcase_heading', array(
-      'default'   => _x('Custom Bootstrap Wordpress Theme', 'wp_theme'),
+      'default'   => _x('Kim and Victors Custom Bootstrap Wordpress Theme', 'wp_theme'),
       'type'      => 'theme_mod'
     ));
 
@@ -32,7 +32,7 @@
     ));
 
     $wp_customize->add_setting('showcase_text', array(
-      'default'   => _x('Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam', 'wp_theme'),
+      'default'   => _x('Default text', 'wp_theme'),
       'type'      => 'theme_mod'
     ));
 
@@ -47,16 +47,6 @@
       'type'      => 'theme_mod'
     ));
 
-    $wp_customize->add_control('btn_url', array(
-      'label'   => __('Button URL', 'wp_theme'),
-      'section' => 'showcase',
-      'priority'  => 4
-    ));
-
-    $wp_customize->add_setting('btn_text', array(
-      'default'   => _x('Read More', 'wp_theme'),
-      'type'      => 'theme_mod'
-    ));
 
     $wp_customize->add_control('btn_text', array(
       'label'   => __('Button Text', 'wp_theme'),
@@ -66,4 +56,3 @@
   }
 
   add_action('customize_register', 'wpb_customize_register');
-*/
