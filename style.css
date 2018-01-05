@@ -9,7 +9,7 @@ Version: 1.0
  */
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Roboto', sans-serif;
     color: #555;
 }
 p {
@@ -23,7 +23,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
     margin-top: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #333;
 }
@@ -153,7 +153,6 @@ h6, .h6 {
 .productid1, .productid2 img {
     padding: 10px 0;
     width: 100%;
-
 }
 .info {
     background-color: grey;
@@ -240,10 +239,10 @@ form {
 
 }
 .picture {
-    height: 600px;
+    height: 620px;
     background-color: antiquewhite;
     margin-bottom: 40px;
-
+    text-align: center;
 }
 .innerform {
     padding: 40px;
@@ -251,17 +250,46 @@ form {
 }
 .innerpicture {
     margin-top: 20px;
-    height: 565px;
-    background-color: white;
+    position: relative;
+    text-align: center;
+    /*height: 565px;
+    background-color: white;*/
 
 }
-.innerpictureTextname {
-    background-color: lightblue;
+.birthnameoutput {
+    position: absolute;
+    font-family: ‘Dancing Script’, cursive;
+    font-size: 60px;
+    color: #036881;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.birthlengthoutput {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.birthweightoutput {
+    position: absolute;
+    top: 92%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+}
+.birthdayoutput {
+    position: absolute;
+    top: 92%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+}
+.birthtimeoutput {
+    position: absolute;
+    top: 92%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
 
-}
-.picture {
-    margin-bottom: 200px;
-}
 .title {
     margin: 40px 30px;
     text-align: center;

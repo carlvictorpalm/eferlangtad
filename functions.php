@@ -18,6 +18,8 @@
 
   add_action('after_setup_theme','wpb_theme_setup');
 
+
+
 // Excerpt Length Control
 function set_excerpt_length(){
   return 45;
@@ -42,3 +44,8 @@ add_action('widgets_init', 'wpb_init_widgets');
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';
 
+// Google fonts * Roboto | Dancing Script
+/*function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Dancing+Script|Roboto', false );
+}
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );*/

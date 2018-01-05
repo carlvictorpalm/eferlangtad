@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+      <link href=“https://fonts.googleapis.com/css?family=Dancing+Script|Roboto” rel=“stylesheet”>
     <?php wp_head(); ?>
   </head>
   <body>
