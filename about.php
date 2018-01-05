@@ -1,4 +1,4 @@
-<?php /* Template Name: About */
+<?php /* Template Name: about */
 
 get_header(); ?>
 

@@ -1,4 +1,4 @@
-<?php /* Template Name: Inspiration */
+<?php /* Template Name: inspiration */
 
 get_header(); ?>
 
@@ -6,7 +6,7 @@ get_header(); ?>
     <div class="row">
         <div class="wrapper">
             <div class="title">
-                <h2>inspiration</h2>
+                <h2>Inspiration</h2>
             </div>
 
         </div>
