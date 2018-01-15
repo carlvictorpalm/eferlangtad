@@ -2,7 +2,6 @@
 
 get_header(); ?>
 
-<body>
 <div class="row">
     <div class="wrapper">
         <div class="title">
@@ -31,14 +30,14 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="row">
     <div class="wrapper">
         <div class="col-lg-8 ingress">
             <h4>
                 Hey! Vi är Victor Palm och Kim Dahlberg,
                 Två klasskompisar som beslutade sig för att göra sitt examensarbet tillsammans, det kom till att bli  — efterlängtad.se.
                 Victor och Kim studerar sista terminen på en webbutvecklingsutbildning med fokus på e-handel, trendigt, fräscht och framtiden!
-                Men bakom den utvecklingen ligger en oroande trend och växa fram genom lätt tillgängligheten att skapa digitala försäljningsmöjligheter.
+            </h4>
+            <h4>bakom den utvecklingen ligger en oroande trend och växa fram genom lätt tillgängligheten att skapa digitala försäljningsmöjligheter.
                 att skapa fler e-handels företag även bidra till en massproduktion med vår planet som insats.
                 Vi ville istället se på en e-handel med en produkt framtagen på minimal påverkan av jorden resuser som dessutom kunde skapas efter behov.</h4>
 
@@ -55,27 +54,7 @@ get_header(); ?>
 
         </div>
 
-        <!--  Hey! Vi är Victor Palm och Kim Dahlberg,
-		  Två klasskompisar som beslutade sig för att göra sitt examensarbet tillsammans, det kom till att bli  — efterlängtad.se.
 
-		  Victor och Kim studerar sista terminen på en webbutvecklingsutbildning med fokus på e-handel, trendigt, fräscht och framtiden!
-
-		  Men bakom den utvecklingen ligger en oroande trend och växa fram genom lätt tillgängligheten att skapa digitala försäljningsmöjligheter.
-
-		  att skapa fler e-handels företag även bidra till en massproduktion med vår planet som insats.
-
-		  Vi ville istället se på en e-handel med en produkt framtagen på minimal påverkan av jorden resuser som dessutom kunde skapas efter behov.
-
-
-		  We truly believe in the transformative power of illustration and design
-		  and their ability to simplify communications, elevate experiences,
-		  &nbsp;engage and inspire people everywhere. Good design and good relationships
-		  come from collaboration. We're excited to start a visual dialogue,
-		  learn about you, and make something beautiful together. -->
-
-
-
-</body>
 
 
 <?php get_footer(); ?>

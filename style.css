@@ -2,7 +2,7 @@
 Theme Name: VictorDev
 Author: DevVictor
 Description: Bootstrap Wordpress Theme
-Version: 1.0
+Version: 2.0
 */
 /*
  * Globals
@@ -321,16 +321,19 @@ form {
 SKAPAT PÅ TIDIGARE VERSION
 
  */
+.title {
+    text-align: center;
+}
 
 .title h1{
     margin: 40px 30px;
     text-align: center;
-    /* display: inline-block;
-    border-bottom: 4px solid #231f20;*/
+    border-bottom: 4px solid black;
+    display: inline-block;
     font-weight: 700;
     line-height: 1em;
     letter-spacing: .135em;
-    padding-bottom: .125em;
+    padding-bottom: .5em;
     text-transform: uppercase;
 }
 .title h3 {
@@ -385,7 +388,9 @@ ABOUT US
 }
 
 .ingress {
-    margin-top: 20px;
+    margin-top:20px;
+    margin-bottom: 50px;
     background-color: white;
-    padding: 209px 88px;
+    padding: 188px 88px;
+
 }
