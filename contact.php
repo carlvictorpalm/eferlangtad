@@ -6,7 +6,7 @@ get_header(); ?>
     <div class="row">
         <div class="wrapper">
             <div class="title">
-                <h2>Kontakt</h2>
+                <h1>Kontakt</h1>
             </div>
 
         </div>

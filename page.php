@@ -1,42 +1,10 @@
 <?php get_header(); ?>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
-    <script>
-        // Input text for canvas birthnameText
-        $(document).ready(function(){
-            $("#birthnameText").keyup(function(){
-                var currentText = $(this).val();
-                $(".birthnameoutput").text(currentText);
-            });
-
-            $("#birthlength").keyup(function(){
-                var currentText = $(this).val();
-                $(".birthlengthoutput").text(currentText);
-            });
-
-            $("#birthweight").keyup(function(){
-                var currentText = $(this).val();
-                $(".birthweightoutput").text(currentText);
-            });
-
-            $("#birthday").keyup(function(){
-                var currentText = $(this).val();
-                $(".birthdayoutput").text(currentText);
-            });
-
-            $("#birthtime").keyup(function(){
-                var currentText = $(this).val();
-                $(".birthtimeoutput").text(currentText);
-            });
-        });
-    </script>
 
     <div class="row">
         <div class="wrapper">
             <div class="title">
-                <h2>Skapa din tavla och lägg i varukorgen</h2>
+                <h1>Skapa din tavla och lägg i varukorgen</h1>
             </div>
             <div class="form col-lg-6">
                 <div class="innerform">

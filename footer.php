@@ -60,6 +60,7 @@
    <?php 
     }
 ?>
+<script src='<?php bloginfo('template_url'); ?>/js/create-poster.js'></script>
 
 
 
