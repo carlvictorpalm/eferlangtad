@@ -17,14 +17,14 @@
   <div class="container">
     <div class="row">
       <div class="links">
-      <div class="footerlinks col-lg-4">
+        <div class="footerlinks col-lg-4">
         <h3>LÄNKAR</h3>
-        <p><a href="#">Skapa tavla</a></p>
-        <p><a href="#">Inspiration</a></p>
-        <p><a href="#">Shop</a></p>
-        <p><a href="#">Ge bort</a></p>
-        <p><a href="#">Frågor & Svar</a></p>
-      </div>
+            <p><a href="http://localhost/examensarbete/skapa-tavla/">Skapa tavla</a></p>
+            <p><a href="http://localhost/examensarbete/inspiration/">Inspiration</a></p>
+            <p><a href="http://localhost/examensarbete/kontakt/">Kontakt</a></p>
+            <p><a href="http://localhost/examensarbete/om-oss/">Om oss</a></p>
+            <p><a href="#">Frågor & Svar</a></p>
+        </div>
       <div class="footerinspo col-lg-4">
         <h3>INSPIRATION</h3>
         <p><a href="https://www.instagram.se/" target="_blank">Instagram</a></p>

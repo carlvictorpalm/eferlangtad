@@ -120,6 +120,10 @@
         INSTAGRAM
     -->
     <?php if ( is_front_page() ) {  ?>
+        <div class="instagram">
+            <p>Instagram ,</p>
+        </div>
+
         <div id="instagram"></div> 
     <?php } ?>
 

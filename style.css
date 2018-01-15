@@ -29,12 +29,13 @@ body {
     font-size: 28px;
     padding-top: 30px;
     margin: 0px;
+    font-family: 'Dancing Script', cursive;
 }
 .instagram p {
     font-family: 'Dancing Script', cursive;
     text-align: left;
     font-size: 52px;
-    color: #9fe2dd;
+    color: black;
 }
 
 h1, .h1,
@@ -369,6 +370,9 @@ SKAPAT PÅ TIDIGARE VERSION
 /*
 ABOUT US
 */
+.workspace {
+    padding:0px 0px 0px 20px;
+}
 .aboutusimg img {
     width: 100%;
 }
@@ -391,6 +395,5 @@ ABOUT US
     margin-top:20px;
     margin-bottom: 50px;
     background-color: white;
-    padding: 188px 88px;
-
+    padding: 176px 88px;
 }

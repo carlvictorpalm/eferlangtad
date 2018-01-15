@@ -9,14 +9,16 @@
 
         //FÖDELSETID
         $(".birthtimeoutput").text('00:00');
+        // FÖDELSEDAG
+        $(".birthdayoutput").text('2018-12-05');
 
         $("#birthnameText").keyup(function(){
             var currentText = $(this).val();
-            $(".birthnameoutput").text(currentText + 'NAMN');
+            $(".birthnameoutput").text(currentText);
         });
         $("#birthday").keyup(function(){
             var currentText = $(this).val();
-            $(".birthdayoutput").text(currentText + '2018-01-01');
+            $(".birthdayoutput").text(currentText);
         });
 
         // INFO
@@ -35,7 +37,7 @@
 
         $("#birthtime").keyup(function(){
             var currentText = $(this).val();
-            $(".birthtimeoutput").text('00:00' + currentText);
+            $(".birthtimeoutput").text(currentText);
         });
 
     });
