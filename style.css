@@ -11,9 +11,30 @@ Version: 1.0
 body {
     font-family: 'Roboto', sans-serif;
     color: #555;
-}
-p {
+    background-color: #f9f9f9;
 
+}
+
+/*
+ * p classer.
+ */
+.aboutus p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #999;
+    padding-top: 30px;
+    margin: 0px;
+}
+.aboutus h5 {
+    font-size: 28px;
+    padding-top: 30px;
+    margin: 0px;
+}
+.instagram p {
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    font-size: 52px;
+    color: #9fe2dd;
 }
 
 h1, .h1,
@@ -154,9 +175,7 @@ h6, .h6 {
     padding: 10px 0;
     width: 100%;
 }
-.info {
-    background-color: grey;
-}
+
 .sale {
     padding: 30px 0;
     background: #FBDCCE;
@@ -179,34 +198,39 @@ h6, .h6 {
 }
 
 .newsletter .single {
-    max-width: 650px;
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 2;  }
 .newsletter .single h1 {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     text-transform: uppercase; }
 
 .newsletter .single .form-control {
+    font-size: 20px;
     height: 50px;
     padding: 1px 60px;
     text-align: center;
     background: rgba(255, 255, 255, 0.6);
     border-color: transparent;
     border-radius: 20px 0px 0px 20px;
-    border-style: hidden; }
+    border-style: hidden;
+}
 
 .newsletter .single .form-control:focus {
     box-shadow: none;
-    border-color: #243c4f; }
+    border-color: #243c4f;
+}
 .newsletter .single .btn {
+    font-size: 18px;
     min-height: 50px;
     border-radius: 0 20px 20px 0;
     background: #243c4f;
     color: #fff;
-    border-style: hidden;  }
+    border-style: hidden;
+}
 .newsletter p {
     color: #fff;
     font-size: 20px;
@@ -277,6 +301,7 @@ form {
     right: 20%;
     transform: translate(-50%, -50%);
 }
+
 .birthdayoutput {
     position: absolute;
     top: 92%;
@@ -290,7 +315,77 @@ form {
     transform: translate(-50%, -50%);
 }
 
-.title {
+
+/*
+
+SKAPAT PÅ TIDIGARE VERSION
+
+ */
+
+.title h1{
     margin: 40px 30px;
     text-align: center;
+    /* display: inline-block;
+    border-bottom: 4px solid #231f20;*/
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: .135em;
+    padding-bottom: .125em;
+    text-transform: uppercase;
+}
+.title h3 {
+    font-size: 28px;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 35px;
+    letter-spacing: .05em;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.about_img{
+    display: table;
+    line-height: 1%;
+    margin: auto 10px 20px 10px;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+/* Heart Icon
+--------------------------------------------- */
+
+.site-footer .icon {
+    font-size: 20px;
+}
+
+.site-footer .love .icon {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*
+ABOUT US
+*/
+.aboutusimg img {
+    width: 100%;
+}
+.process {
+    padding-top: 20px;
+}
+.merit {
+    padding-top: 20px;
+}
+.process img {
+    width: 100%;
+}
+
+.merit img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ingress {
+    margin-top: 20px;
+    background-color: white;
+    padding: 209px 88px;
 }

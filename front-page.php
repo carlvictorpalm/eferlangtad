@@ -58,24 +58,23 @@
     -->
     <div id="info">
         <div class="aboutus col-lg-6">
-        <p>
-            Genom ett hav av känslor och längtan, är nu resan på nio månader äntligen gjord.
-            Nu tar en ny livslång resa vid där ingen dag kommer bli den andre lik.
-            Det finns stunder där tiden står still men ofta rinner den iväg
-            snabbare än man hinner blinka.</p>
-            <br>
-            Att föreviga dagen då det lilla knytet äntligen fick landa i famnen,
-            där ännu ett liv att älska kommit till jorden, där ni tillsammans är
-            en familj livet ut tycker vi är värt att skapa.
-            <br>
+        <p>Genom ett hav av känslor och längtan, är nu resan på nio månader äntligen gjord.
+                Nu tar en ny livslång resa vid där ingen dag kommer bli den andre lik.
+                Det finns stunder där tiden står still men ofta rinner den iväg
+                snabbare än man hinner blinka.</p>
+
+            <p>Att föreviga dagen då det lilla knytet äntligen fick landa i famnen,
+                där ännu ett liv att älska kommit till jorden, där ni tillsammans är
+                en familj livet ut tycker vi är värt att skapa.</p>
+
             <p>Genom våra tidlösa illustrationer gjorda av designers erbjuder vi
-            trendiga posters att pryda era väggar.
-            Lycka till i all framtid och glöm inte att ta tillvara på varje liten sekund tillsammans.
-            <br>
-            efterlängtad.se
+                trendiga posters att pryda era väggar.
+                Lycka till i all framtid och glöm inte att ta tillvara på varje liten sekund tillsammans.
+
+            <h5>/ efterlängtad.se</h5>
         </p>
     </div>
-    <!-- 
+    <!--
        PRODUKTER
     -->
     <div class="products col-lg-6">

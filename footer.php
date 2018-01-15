@@ -45,10 +45,10 @@
   </div>
   
   </div>
-  <div class="copy">
-    <p>&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></p>
-    <p class="top"><a href="#">Back to top</a></p>
-  </div>                
+    <div class="copy">
+        <p class="love">Created with <i class="icon ion-heart"></i> locally in the heart of Gothenburg, Sweden.</p><p>&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></p>
+        <p class="top"><a href="#">Back to top</a></p>
+    </div>
 </footer>
 <?php wp_footer(); ?>
 

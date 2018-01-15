@@ -45,7 +45,13 @@ add_action('widgets_init', 'wpb_init_widgets');
 require get_template_directory(). '/inc/customizer.php';
 
 // Google fonts * Roboto | Dancing Script
-/*function wpb_add_google_fonts() {
+function wpb_add_google_fonts() {
 	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Dancing+Script|Roboto', false );
 }
-add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );*/
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+// Enqueue Ionicons for “Made with love in Gothenburg footer.
+add_action( 'wp_enqueue_scripts', 'sp_enqueue_ionicons' );
+function sp_enqueue_ionicons() {
+	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array());
+}
