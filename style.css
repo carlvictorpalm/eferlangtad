@@ -246,7 +246,7 @@ SKAPA TAVLAN CSS
 input {
     width: 90%;
     padding: 10px;
-    margin: 2px;
+    margin: 6px;
     padding-right: 100px;
 }
 form {
@@ -371,16 +371,18 @@ SKAPAT PÅ TIDIGARE VERSION
 ABOUT US
 */
 .workspace {
-    padding:0px 0px 0px 20px;
+    padding-left: 20px;
 }
 .aboutusimg img {
     width: 100%;
 }
-.process {
+.process, .merit {
     padding-top: 20px;
 }
-.merit {
-    padding-top: 20px;
+
+.merit:hover, .process:hover{
+    opacity: 0.7;
+
 }
 .process img {
     width: 100%;
@@ -395,5 +397,5 @@ ABOUT US
     margin-top:20px;
     margin-bottom: 50px;
     background-color: white;
-    padding: 176px 88px;
+    padding: 167px 88px;
 }

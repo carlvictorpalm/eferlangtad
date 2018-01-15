@@ -46,11 +46,12 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 workspace">
             <div class="process">
-                <img src=" <?php echo get_bloginfo('template_url') ?>/img/about_img_projekt.jpg" alt="">
+                <a href="https://drive.google.com/drive/folders/1OIJNDsnOYmhjXTurSEFdPo97LRlAP8vF" target="_blank"><img src=" <?php echo get_bloginfo('template_url') ?>/img/about_img_projekt.jpg" alt=""></a>
+
 
             </div>
             <div class="merit">
-                <img src=" <?php echo get_bloginfo('template_url') ?>/img/about_img_kontakt.jpg" alt="">
+                <a href="http://localhost/examensarbete/kontakt/" target="_blank"><img src=" <?php echo get_bloginfo('template_url') ?>/img/about_img_kontakt.jpg" alt=""></a>
             </div>
 
         </div>
