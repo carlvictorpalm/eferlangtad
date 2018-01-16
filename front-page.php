@@ -69,44 +69,46 @@
 
             <p>Genom våra tidlösa illustrationer gjorda av designers erbjuder vi
                 trendiga posters att pryda era väggar.
-                Lycka till i all framtid och glöm inte att ta tillvara på varje liten sekund tillsammans.
-
+                Lycka till i all framtid och glöm inte att ta tillvara på varje liten sekund tillsammans. </p>
             <h5>/ efterlängtad.se</h5>
-        </p>
+
     </div>
     <!--
        PRODUKTER
     -->
     <div class="products col-lg-6">
-       <div class="productid1 col-lg-12">
-           <div class="col-lg-6">
+        <div class="productid1 col-lg-12">
+           <div class="col-sm-6 col-lg-6">
                <img src=" <?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
-           <div class="col-lg-6">
+           <div class="col-sm-6 col-lg-6">
                <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
-       </div>
+        </div>
         <div class="productid2 col-lg-12">
-            <div class="col-lg-6">
+            <div class="col-sm-6 col-lg-6">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
-            <div class="col-lg-6">
+            <div class="col-sm-6 col-lg-6">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
         </div>
     </div>
-        
-    </div>
+
 
     <!-- 
        SALE
     -->
     <div class="sale col-lg-12">
-        <div class="salediscount col-lg-6">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/rabatt.png" alt="">
+        <div class="col-lg-6">
+            <div class="salediscount">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/rabatt.png" alt="">
+            </div>
         </div>
-        <div class="saleparents col-lg-6">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/parents.png" alt="">
+        <div class="col-lg-6">
+            <div class="saleparents">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/parents.png" alt="">
+            </div>
         </div>
     </div>
     <!--

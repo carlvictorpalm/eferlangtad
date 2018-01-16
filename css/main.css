@@ -60,7 +60,8 @@
     #instagram a{
         -webkit-flex-basis:calc(100%/3);
         -ms-flex-preferred-size:calc(100%/3);
-        flex-basis:calc(100%/3)}}
+        flex-basis:calc(100%/3)}
+}
 #instagram a:hover{
     opacity:2;
 }
