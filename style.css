@@ -282,11 +282,10 @@ SKAPA TAVLAN CSS
 }
 
 input {
-    width: 90%;
+    width: 60%;
     padding: 20px;
     font-size: 20px;
     margin: 6px;
-    padding-right: 100px;
     border-radius: 20px;
     border-style: hidden;
 
@@ -303,8 +302,15 @@ input {
     }
 }
 .form {
+    text-align: center;
     background-color: antiquewhite;
     border-radius: 20px 0 0 20px;
+}
+
+@media (min-width: 575px ){
+    .birthtimefield {
+        margin-left: -99px;
+    }
 }
 .picture {
     background-color: antiquewhite;
