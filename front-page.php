@@ -78,18 +78,18 @@
     -->
     <div class="products col-lg-6">
         <div class="productid1 col-lg-12">
-           <div class="col-sm-6 col-lg-6">
+           <div class="pro1 col-sm-6 col-lg-6">
                <img src=" <?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
-           <div class="col-sm-6 col-lg-6">
+           <div class="pro1 col-sm-6 col-lg-6">
                <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
            </div>
         </div>
         <div class="productid2 col-lg-12">
-            <div class="col-sm-6 col-lg-6">
+            <div class="pro2 col-sm-6 col-lg-6">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
-            <div class="col-sm-6 col-lg-6">
+            <div class="pro2 col-sm-6 col-lg-6">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/product.png" alt="">
             </div>
         </div>

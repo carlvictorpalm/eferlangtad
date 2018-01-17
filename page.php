@@ -4,7 +4,7 @@
     <div class="row">
         <div class="wrapper">
             <div class="title">
-                <h1>Skapa din tavla och lägg i varukorgen</h1>
+                <h1>Skapa din tavla</h1>
             </div>
             <div class="form col-lg-6">
                 <div class="innerform">

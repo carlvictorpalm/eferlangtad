@@ -184,12 +184,12 @@ h6, .h6 {
 
 }
 .productid1 img {
-    padding: 10px 0;
+    padding: 10px 0 10px 20px;
     width: 100%;
 
 }
 .productid2 img {
-    padding: 10px 0;
+    padding: 10px 0 10px 20px;
     width: 100%;
 }
 
@@ -304,6 +304,9 @@ form {
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: center;
+}
+.pro1, .pro2{
+    padding:0px;
 }
 .innerform {
     padding: 40px;

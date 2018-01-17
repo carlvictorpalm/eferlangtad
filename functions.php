@@ -55,3 +55,7 @@ add_action( 'wp_enqueue_scripts', 'sp_enqueue_ionicons' );
 function sp_enqueue_ionicons() {
 	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array());
 }
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
