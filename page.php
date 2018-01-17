@@ -11,8 +11,9 @@
                     <form>
                         <input type="text" id="birthnameText" placeholder="FÖDELSENAMN" name="birthname">
                         <input type="text" id="birthlength" placeholder="FÖDELSELÄNGD" name="birthlength">
-                        <input type="text" id="birthday" placeholder="FÖDELSEDAG" name="birthday">
-                        <input type="text" id="birthtime" placeholder="FÖDELSETID" name="birthtime">
+                        <input type="date" id="birthday" placeholder="FÖDELSEDAG" name="birthday">
+                        <span>FÖDELSETID</span><input class="time1" type="text" id="birthtime" placeholder="" name="birthtime">
+                        <span>:</span><input class="time2" type="text" id="birthtime" placeholder="" name="birthtime">
                         <input type="text" id="birthweight" placeholder="FÖDELSEVIKT" name="birthweight">
                     </form>
                     <div class="formbutton">
