@@ -297,14 +297,12 @@ form {
 }
 .form {
     background-color: #ECEAE5;
-    margin-bottom: 40px;
-
 }
 .picture {
     background-color: antiquewhite;
     margin-bottom: 25px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     text-align: center;
 }
 .innerform {
@@ -331,7 +329,7 @@ JQUERY OUTPUT
     font-family: ‘Dancing Script’, cursive;
     font-size: 60px;
     color: #036881;
-    top: 85%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
