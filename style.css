@@ -371,7 +371,13 @@ JQUERY OUTPUT
     left: 44%;
     transform: translate(-50%, -50%);
 }
-.birthtimeoutput {
+.birthhours {
+    position: absolute;
+    top: 92%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+}
+.birthminutes {
     position: absolute;
     top: 92%;
     right: 35%;

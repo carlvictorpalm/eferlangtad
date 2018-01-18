@@ -10,13 +10,13 @@
                 <div class="innerform">
                     <form>
                         <input type="text" id="birthnameText" placeholder="FÖDELSENAMN" name="birthname">
-                        <input type="text" id="birthlength" placeholder="FÖDELSELÄNGD" name="birthlength">
+                        <input type="text" id="birthlength" maxlength="2" placeholder="FÖDELSELÄNGD" name="birthlength">
                         <input type="date" id="birthday" placeholder="FÖDELSEDAG" name="birthday">
-                        <input type="text" id="birthweight" placeholder="FÖDELSEVIKT" name="birthweight">
+                        <input type="text" id="birthweight" maxlength="4" placeholder="FÖDELSEVIKT" name="birthweight">
                         <br>
                         <div class="birthtimefield">
-                            <span>FÖDELSETID</span><input class="time1" type="text" id="birthtime" placeholder="" name="birthtime">
-                            <span>:</span><input class="time2" type="text" id="birthtime" placeholder="" name="birthtime">
+                            <span>FÖDELSETID</span><input maxlength="2" class="time1" type="text" id="birthhours" placeholder="00" name="birthhours">
+                            <span>:</span><input maxlength="2" class="time2" type="text" id="birthminutes" placeholder="00" name="birthminutes">
                         </div>
                     </form>
                     <div class="formbutton">
@@ -29,10 +29,11 @@
                 <div class="innerpicture">
                     <img src="<?php echo get_bloginfo('template_url') ?>/img/bild.jpg" alt="">
                     <div class="birthnameoutput"></div>
-                    <div class="birthlengthoutput" maxlength="2"></div>
-                    <div class="birthweightoutput" maxlength="4"></div>
+                    <div class="birthlengthoutput"></div>
+                    <div class="birthweightoutput"></div>
                     <div class="birthdayoutput"></div>
-                    <div class="birthtimeoutput"></div>
+                    <div class="birthhours"></div>
+                    <div class="birthminutes"></div>
                 </div>
             </div>
         </div> <!--Wrapper ends-->
