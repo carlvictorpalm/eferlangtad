@@ -2,7 +2,7 @@
 Theme Name: VictorDev
 Author: DevVictor
 Description: Bootstrap Wordpress Theme
-Version: 2.0
+Version: 2.1
 */
 /*
  * Globals
@@ -288,8 +288,9 @@ input {
     margin: 6px;
     border-radius: 20px;
     border-style: hidden;
-
+    outline: 0;
 }
+
 
 .formbutton {
     text-align: center;
@@ -374,7 +375,7 @@ JQUERY OUTPUT
 .birthhours {
     position: absolute;
     top: 92%;
-    right: 35%;
+    right: 38%;
     transform: translate(-50%, -50%);
 }
 .birthminutes {
@@ -400,8 +401,11 @@ JQUERY OUTPUT
         left: 36%;
     }
 
-    .birthtimeoutput {
-        right: 31%;
+    .birthhours {
+        right: 38%;
+    }
+    .birthminutes {
+        right: 35%;
     }
 }
 

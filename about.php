@@ -15,20 +15,6 @@ get_header(); ?>
     </div>
 </div> <!--Wrapper ends-->
 
-<div class="container">
-    <div class="row aboutimage">
-        <div class="image col-sm-12"> </div>
-    </div>
-    <div class="row aboutinfo">
-        <div class="textinfo col-sm-8"></div>
-        <div class="img sale1 col-sm-4"></div>
-        <div class="textinfo col-md-8"></div>
-        <div class="img sale2 col-md-4"></div>
-    </div>
-    <div class="row icontext">
-        <div class="col-xs-12"></div>
-    </div>
-</div>
 
     <div class="wrapper">
         <div class="col-lg-8 ingress">

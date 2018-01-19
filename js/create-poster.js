@@ -8,9 +8,10 @@
         $(".birthweightoutput").text(' GRAM');
 
         //FÖDELSETID
-        $(".birthhours").text('00:00');
+        $(".birthhours").text('00');
+        $(".birthminutes").text('00');
         // FÖDELSEDAG
-        $(".birthdayoutput").text('2018-12-05');
+        $(".birthdayoutput").text('åååå-mm-dd');
 
         $("#birthnameText").keyup(function(){
             var currentText = $(this).val();
@@ -35,11 +36,11 @@
             $(".birthweightoutput").text(currentText + ' GRAM');
         });
 
-        $("#birththours").keyup(function(){
+        $("#birthhours").keyup(function(){
             var currentText = $(this).val();
             $(".birthhours").text(currentText);
         });
-        $("#birthtminutes").keyup(function(){
+        $("#birthminutes").keyup(function(){
             var currentText = $(this).val();
             $(".birthminutes").text(currentText);
         });

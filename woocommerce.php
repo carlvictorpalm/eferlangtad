@@ -1,9 +1,13 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Victorious
- * Date: 2018-01-17
- * Time: 15:20
- */
+<?php /* Template Name: shop */
 
-woocommerce_content();
+get_header();
+?>
+
+<div class="row">
+    <div class="wrapper">
+        <?php woocommerce_content();
+        ?>
+    </div>
+
+    <?php get_footer(); ?>
+

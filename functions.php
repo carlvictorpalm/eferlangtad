@@ -59,3 +59,9 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
+
+function add_canvas_to_cart() {
+    $product = new WC_Product(65);
+    $product->set_attributes(['birth_name' => "Marcus"]);
+    WC()->cart->add_to_cart( 65 );
+}
